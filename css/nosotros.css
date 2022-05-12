@@ -1,0 +1,117 @@
+* {
+    font-family: 'Lobster', cursive;
+}
+header {
+    height: 100px;
+    width: 100%;
+    margin: 10px 25px 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(47, 90, 69);
+    box-shadow: 0 5px 3px #333;
+    z-index: 20;
+    background-image: url(../imagenes/almendra.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px 5px 20px;
+}
+
+
+.nav a {
+    transition: all .5s;
+    font-size: 30px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white
+}
+.nav a:hover {
+    color: black
+}
+
+.inicio {
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1 5px;
+    background-size: contain;
+}
+
+.quienes{
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1 5px;
+    background-size: contain;
+}
+
+.propiedades {
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1 5px;
+    background-size: contain;
+}
+
+.productos {
+    
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1 5px;
+    background-size: contain;
+}
+
+
+.body {
+    background: rgb(52, 116, 71);
+}
+
+.h1 {
+    font-size: 90px;
+    text-align: center;
+    padding: 80px;
+    margin: 75px;
+    background-image: url(../imagenes/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+       }
+
+
+.parrafo {
+    font-weight: 100;
+    font-size: 45px;
+    padding: 50px;
+    margin: 50px;
+}
+.foter {
+    box-sizing: border-box;
+    border: 20px solid black;
+    text-align: center; 
+}
+
+.contactanos {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 30px;
+    }
+
+.redes a {
+    transition: all .5s;
+    font-size: 30px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white
+}
+
+.redes a:hover {
+    color:#333
+}

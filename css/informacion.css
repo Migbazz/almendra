@@ -1,9 +1,13 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Lobster', cursive;
+}
+header, nav, article, section, footer{
+    display: block;
 }
 header {
     
-    position: fixed;
     height: 100px;
     width: 100%;
     margin: 10px 25px 5px 0;
@@ -73,3 +77,63 @@ header {
     box-shadow: 1 5px;
     background-size: contain;
 }
+
+body {
+    text-align: center;
+    background: rgb(52, 116, 71);
+}
+
+#agrupar {
+    width: 1320px;
+    margin: 15px auto;
+    text-align: left;
+    }
+
+section {
+    float: left;
+    width: 600px;
+    margin: 20px;
+}
+.pie {
+    clear: both;    
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    }
+
+article {
+         background: #41a780;
+        border: 1px solid #999999;
+        padding: 20px;
+        margin-bottom: 15px;
+        }
+
+.seccion {
+    text-align: center;
+    background: #41a780;
+        border: 1px solid #999999;
+        padding: 10px 5px 10px 5px;
+        margin-bottom: 5px;
+}
+
+.redes a {
+    transition: all .5s;
+    font-size: 30px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white
+}
+
+.redes a:hover {
+    color:#333
+}
+
+.seccion h2 a{
+    transition: all .5s;
+    text-decoration: none;
+    color: white;
+}
+.seccion h2 a:hover{
+    color: #333;
+}
+

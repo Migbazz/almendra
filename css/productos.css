@@ -1,6 +1,5 @@
 header {
     
-    position: fixed;
     height: 100px;
     width: 100%;
     margin: 10px 25px 5px 0;
@@ -25,6 +24,15 @@ header {
 }
 .nav a:hover {
     color: black
+}
+.listap a {
+    transition: all .5s;
+    text-decoration: none;
+    color: white;
+}
+
+.listap a:hover {
+    color: rgb(245, 17, 233);
 }
 .inicio {
     display: inline-block;
@@ -69,4 +77,38 @@ header {
     font-family: 'Lobster', cursive;
     box-shadow: 1 5px;
     background-size: contain;
+}
+
+body {
+    text-align: center;
+    background: rgb(52, 116, 71);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pie {
+    clear: both;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    text-align: center;
+}
+
+
+
+.redes a {
+    transition: all .5s;
+    font-size: 30px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white
+}
+
+.redes a:hover {
+    color:#333
+}
+
+.listap {
+    background: rgb(65, 161, 140);
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
 }

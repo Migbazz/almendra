@@ -85,17 +85,13 @@ header {
     background: rgb(52, 116, 71);
 }
 .foter {
-    box-sizing: border-box;
-    border: 20px solid black;
-    text-align: center; 
+    clear: both;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    text-align: center;
 }
 
-.contactanos {
-    display: inline-block;
-    box-sizing: border-box;
-    font-size: 30px;
-    font-family: 'Lobster', cursive;
-}
+
 
 .redes a {
     transition: all .5s;
